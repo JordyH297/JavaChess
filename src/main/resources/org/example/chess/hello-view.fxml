@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.chess.HelloController">
+    <center>
+        <StackPane>
+            <StackPane style="-fx-padding: 10; -fx-border-style: solid; -fx-border-width: 3; -fx-border-color: darkgray; -fx-background-color: sienna;">
+                <GridPane fx:id="chessboard" />
+            </StackPane>
+        </StackPane>
+    </center>
+</BorderPane>
